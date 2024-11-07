@@ -12,7 +12,7 @@ the goal is to determine whether there was enough of AEDs provided at coordinate
 
 ## Data requirement:
 
-## Information Architecture
+## Information Architecture:
 **Information Architecture Diagram** 
 
 
@@ -26,7 +26,21 @@ My first stage is to gather data from New York City Automated External Defibrill
 
 
 
-## Data Architecture
+## Data Architecture:
+
+**Data Architecture Diagram** 
+
+<img width="665" alt="Screen Shot 2024-11-07 at 6 02 28 PM" src="https://github.com/user-attachments/assets/99550e14-29d4-4e3d-a518-ef28e90cea6c">
+
+
+**Data Architecture Description** 
+
+The raw data is collected by department of health and mental hygiene (DOHMH) for NYC REMSCO. The raw data is already integrated by DOHMH, which includes the address, locations, and populations etc. However, data can’t directly be used. It still needs to be ETL and reformat the data that is needed. After that, data will be store in three different data marts (number of AED, council district and zip, population data) by using Bottom-Up method. Finally, data from three different data marts will goes to data warehouse and ready to be use for data mining or analysis.
+
+
+
+
+
 
 
 
